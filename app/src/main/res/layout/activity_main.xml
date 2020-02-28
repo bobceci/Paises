@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textPais"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/pais"
+        android:textSize="@dimen/smartphoneTexto" />
+
+
+    <ImageView
+        android:id="@+id/imagemFlag"
+        android:layout_width="@dimen/smartphone"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/flag" />
+
+    <ImageView
+        android:id="@+id/imageFood"
+        android:layout_width="@dimen/smartphone"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/food" />
+
+    <TextView
+        android:id="@+id/textFood"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/food"
+        android:textSize="@dimen/smartphoneTexto" />
+
+
+</LinearLayout>
